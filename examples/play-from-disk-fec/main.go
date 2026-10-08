@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/0magnet/webrtc/v4"
+	"github.com/0magnet/webrtc/v4/pkg/media"
+	"github.com/0magnet/webrtc/v4/pkg/media/ivfreader"
 	"github.com/pion/interceptor"
 	"github.com/pion/rtp"
-	"github.com/pion/webrtc/v4"
-	"github.com/pion/webrtc/v4/pkg/media"
-	"github.com/pion/webrtc/v4/pkg/media/ivfreader"
 )
 
 const (

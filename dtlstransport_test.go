@@ -18,12 +18,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/dtls/v3"
-	dtlsElliptic "github.com/pion/dtls/v3/pkg/crypto/elliptic"
-	"github.com/pion/dtls/v3/pkg/protocol/handshake"
+	"github.com/0magnet/dtls/v3"
+	dtlsElliptic "github.com/0magnet/dtls/v3/pkg/crypto/elliptic"
+	"github.com/0magnet/dtls/v3/pkg/protocol/handshake"
+	"github.com/0magnet/webrtc/v4/internal/mux"
 	"github.com/pion/srtp/v3"
 	"github.com/pion/transport/v5/test"
-	"github.com/pion/webrtc/v4/internal/mux"
 	"github.com/stretchr/testify/assert"
 )
 

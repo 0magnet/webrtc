@@ -1,10 +1,10 @@
-module github.com/pion/webrtc/v4
+module github.com/0magnet/webrtc/v4
 
 go 1.24.0
 
 require (
+	github.com/0magnet/dtls/v3 v3.1.11
 	github.com/pion/datachannel v1.6.3
-	github.com/pion/dtls/v3 v3.1.10
 	github.com/pion/ice/v4 v4.4.7
 	github.com/pion/interceptor v0.1.49
 	github.com/pion/logging v0.2.4
@@ -26,6 +26,7 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/onsi/ginkgo v1.16.5 // indirect
 	github.com/onsi/gomega v1.17.0 // indirect
+	github.com/pion/dtls/v3 v3.1.10 // indirect
 	github.com/pion/mdns/v2 v2.2.2 // indirect
 	github.com/wlynxg/anet v0.0.5 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect

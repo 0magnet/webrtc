@@ -24,7 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/dtls/v3"
+	"github.com/0magnet/dtls/v3"
+	"github.com/0magnet/webrtc/v4/internal/util"
+	"github.com/0magnet/webrtc/v4/pkg/rtcerr"
 	"github.com/pion/ice/v4"
 	"github.com/pion/logging"
 	"github.com/pion/rtcp"
@@ -34,8 +36,6 @@ import (
 	"github.com/pion/transport/v5/test"
 	"github.com/pion/transport/v5/vnet"
 	"github.com/pion/turn/v5"
-	"github.com/pion/webrtc/v4/internal/util"
-	"github.com/pion/webrtc/v4/pkg/rtcerr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

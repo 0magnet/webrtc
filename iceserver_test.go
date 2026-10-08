@@ -9,8 +9,8 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/0magnet/webrtc/v4/pkg/rtcerr"
 	"github.com/pion/stun/v4"
-	"github.com/pion/webrtc/v4/pkg/rtcerr"
 	"github.com/stretchr/testify/assert"
 )
 

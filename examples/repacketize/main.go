@@ -14,13 +14,13 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/0magnet/webrtc/v4"
+	"github.com/0magnet/webrtc/v4/pkg/media"
+	"github.com/0magnet/webrtc/v4/pkg/media/samplebuilder"
 	"github.com/pion/interceptor"
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 	"github.com/pion/rtp/codecs"
-	"github.com/pion/webrtc/v4"
-	"github.com/pion/webrtc/v4/pkg/media"
-	"github.com/pion/webrtc/v4/pkg/media/samplebuilder"
 )
 
 //go:embed index.html index.js

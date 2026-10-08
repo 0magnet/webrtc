@@ -12,7 +12,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pion/webrtc/v4"
+	"github.com/0magnet/webrtc/v4"
 )
 
 const (

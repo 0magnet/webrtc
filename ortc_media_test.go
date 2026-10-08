@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0magnet/webrtc/v4/pkg/media"
 	"github.com/pion/transport/v5/test"
-	"github.com/pion/webrtc/v4/pkg/media"
 	"github.com/stretchr/testify/assert"
 )
 

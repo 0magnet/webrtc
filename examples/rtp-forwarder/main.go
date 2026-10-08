@@ -17,10 +17,10 @@ import (
 	"os"
 	"strings"
 
+	"github.com/0magnet/webrtc/v4"
 	"github.com/pion/interceptor"
 	"github.com/pion/interceptor/pkg/intervalpli"
 	"github.com/pion/rtp"
-	"github.com/pion/webrtc/v4"
 )
 
 type udpConn struct {

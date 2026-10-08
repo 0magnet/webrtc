@@ -26,9 +26,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/0magnet/dtls/v3"
+	"github.com/0magnet/dtls/v3/pkg/crypto/selfsign"
 	"github.com/pion/datachannel"
-	"github.com/pion/dtls/v3"
-	"github.com/pion/dtls/v3/pkg/crypto/selfsign"
 	"github.com/pion/ice/v4"
 	"github.com/pion/logging"
 	"github.com/pion/sctp"

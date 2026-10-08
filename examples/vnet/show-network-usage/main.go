@@ -14,9 +14,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/0magnet/webrtc/v4"
 	"github.com/pion/logging"
 	"github.com/pion/transport/v5/vnet"
-	"github.com/pion/webrtc/v4"
 )
 
 /* VNet Configuration

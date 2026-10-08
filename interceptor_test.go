@@ -17,6 +17,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0magnet/webrtc/v4/pkg/media"
 	"github.com/pion/interceptor"
 	mock_interceptor "github.com/pion/interceptor/pkg/mock"
 	"github.com/pion/logging"
@@ -24,7 +25,6 @@ import (
 	"github.com/pion/rtp"
 	"github.com/pion/transport/v5/test"
 	"github.com/pion/transport/v5/vnet"
-	"github.com/pion/webrtc/v4/pkg/media"
 	"github.com/stretchr/testify/assert"
 )
 

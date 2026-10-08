@@ -15,9 +15,9 @@ import (
 	"sync"
 	"unicode/utf8"
 
+	"github.com/0magnet/webrtc/v4/internal/util"
 	"github.com/pion/rtp"
 	"github.com/pion/rtp/codecs"
-	"github.com/pion/webrtc/v4/internal/util"
 )
 
 const (

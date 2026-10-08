@@ -17,8 +17,8 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/0magnet/webrtc/v4"
 	"github.com/pion/randutil"
-	"github.com/pion/webrtc/v4"
 )
 
 const messageSize = 15

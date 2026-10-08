@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0magnet/dtls/v3"
+	"github.com/0magnet/dtls/v3/pkg/crypto/elliptic"
+	"github.com/0magnet/dtls/v3/pkg/protocol/handshake"
 	"github.com/pion/datachannel"
-	"github.com/pion/dtls/v3"
-	"github.com/pion/dtls/v3/pkg/crypto/elliptic"
-	"github.com/pion/dtls/v3/pkg/protocol/handshake"
 	"github.com/pion/ice/v4"
 	"github.com/pion/stun/v4"
 	"github.com/pion/transport/v5/test"

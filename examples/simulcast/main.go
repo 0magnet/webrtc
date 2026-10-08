@@ -17,8 +17,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/0magnet/webrtc/v4"
 	"github.com/pion/rtcp"
-	"github.com/pion/webrtc/v4"
 )
 
 // nolint:gocognit, cyclop
